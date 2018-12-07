@@ -177,3 +177,23 @@ textarea{
 	background: black;
 	color: grey;
 }
+
+table{
+	padding: 10px;
+	margin: 20px;
+	border: black 2px solid
+}
+
+th{
+	font-size: 1.5rem;
+	padding: 10px;
+}
+
+td{
+	font-size: 1.5rem;
+	padding: 10px;
+}
+
+tr{
+
+}
