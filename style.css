@@ -74,6 +74,23 @@ div.hero-text {
 		margin: auto;
 	}
 
+	.index {
+		float: left;
+		width: 30%;
+		text-align: center;
+		padding: 10px;
+		
+	}
+	.index a{
+		color: chocolate;
+		text-decoration: none;
+	}
+	.index img{
+		width: 100%;
+		height: 300px;
+		margin: 50px;
+	}
+
 	.column {
 		float: left;
 		width: 33.33%
@@ -81,7 +98,7 @@ div.hero-text {
 
 	.column img {
 		width: 300px;
-		height: auto;
+		height: 300px;
 	}
 
 	.row {
@@ -112,6 +129,9 @@ footer {
 	text-align: center;
 	margin-top: 5px;
 	padding: 5px;
+	clear: both;
+
+
 }
 
 footer p {
@@ -119,6 +139,21 @@ footer p {
 	font-family: cursive;
 	font-size: 20px
 }
+.foot{
+	width: 45%;
+	float: left;
+	text-decoration: none;
+	margin: auto;
+}
+.foot2{
+	clear: both;
+}
+.foot a{
+	text-decoration: none;
+	text-align: center;
+	padding-left: 50px;
+}
+
 
 
 .btn{
@@ -141,7 +176,7 @@ color: red
 
 .form-style{
 	border-left: 2px solid black;
-	width: fit-content;
+	width: 30rem;
 	background: antiquewhite;
 	padding: 20px;
 	border-radius: 15px;
@@ -181,17 +216,30 @@ textarea{
 table{
 	padding: 10px;
 	margin: 20px;
-	border: black 2px solid
+	border: 1px solid black;
+	border-collapse: collapse;
 }
 
 th{
 	font-size: 1.5rem;
 	padding: 10px;
+	border-bottom: solid 2px;
+	border-collapse: collapse;
+	border-right: solid 2px;
+
 }
 
 td{
 	font-size: 1.5rem;
 	padding: 10px;
+	border-collapse: collapse;
+	border-right: solid 2px;
+	border-bottom: solid 1px;
+
+
+}
+.table1{
+	padding-top: 20px; 
 }
 
 tr{
